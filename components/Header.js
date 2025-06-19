@@ -8,8 +8,8 @@ export default function Header({ name }) {
           <img
             src="/images/thrustbyte.png"
             alt={`${name} logo`}
-            width={500}
-            height={201}
+            width={250}
+            height={103}
             className="mx-auto mb-4"
           />
         </a>
