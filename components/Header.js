@@ -1,17 +1,16 @@
 import Link from 'next/link';
-import Image from 'next/image';
 
 export default function Header({ name }) {
   return (
-    <header className="pt-20 pb-12">
+    <header className="pt-12 pb-8">
       <Link href="/">
-        <a className="block w-[800px] h-auto mx-auto mb-6" aria-label={`${name} home`}>
-          <Image
-            src="/thrustbyte.png" // 👈 Replace with your image path
+        <a>
+          <img
+            src="/images/thrustbyte.png"
             alt={`${name} logo`}
             width={500}
-            height={205} // Adjust height for your logo aspect ratio
-            className="object-contain"
+            height={201}
+            className="mx-auto mb-4"
           />
         </a>
       </Link>
