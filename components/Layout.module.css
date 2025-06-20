@@ -14,7 +14,6 @@
     radial-gradient(at 76% 46%, var(--color-gradient-1) 0, transparent 50%);
   /* mix-blend-mode: normal; */
   min-height: 100vh;
-  height: 80vh;
   max-width: 1400px;
   width: 70vw;
   width: 100%;
