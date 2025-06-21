@@ -1,5 +1,3 @@
-import ThemeSwitcher from './ThemeSwitcher';
-
 const sunIcon = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -55,7 +53,6 @@ export default function Footer({ copyrightText }) {
       <p className="mb-3 font-bold uppercase dark:text-white opacity-60">
         {copyrightText}
       </p>
-      <ThemeSwitcher />
     </footer>
   );
 }
