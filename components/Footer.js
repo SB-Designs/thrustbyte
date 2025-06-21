@@ -47,35 +47,6 @@ const moonIcon = (
   </svg>
 );
 
-const ThemeSwitcher = () => {
-  return (
-    <div className="flex justify-center p-1 mt-6 bg-white dark:bg-gray-900 rounded-3xl">
-      <button
-        type="button"
-        aria-label="Use Dark Mode"
-        onClick={() => {
-          document.documentElement.classList.add('dark');
-          localStorage.setItem('theme', 'dark');
-        }}
-        className="flex items-center justify-center w-24 h-10 p-2 pr-2 transition cursor-pointer dark:bg-primary rounded-3xl align-center"
-      >
-        {moonIcon}
-      </button>
-
-      <button
-        type="button"
-        aria-label="Use Light Mode"
-        onClick={() => {
-          document.documentElement.classList.remove('dark');
-          localStorage.setItem('theme', 'light');
-        }}
-        className="flex items-center justify-center w-24 h-10 p-2 pr-2 transition cursor-pointer bg-primary dark:bg-transparent rounded-3xl align-center"
-      >
-        {sunIcon}
-      </button>
-    </div>
-  );
-};
 
 export default function Footer({ copyrightText }) {
   return (
